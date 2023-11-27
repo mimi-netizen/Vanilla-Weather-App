@@ -10,6 +10,9 @@ body {
   box-shadow: o 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
   padding: 30px;
+  background-image: url("https://cdn.dribbble.com/users/150724/screenshots/15028857/media/75457090aa8f1020970a83ccdd8b573d.png");
+  background-size: cover;
+  background-position: center;
 }
 
 header {
@@ -53,17 +56,18 @@ h1 {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
+  color: antiquewhite;
 }
 
 p {
   font-size: 16px;
   line-height: 25px;
-  color: rgba(39, 36, 63, 0.4);
+  color: white;
   font-weight: 500;
 }
 
 p strong {
-  color: #f65282;
+  color: rgb(246, 235, 82);
 }
 
 .weather-app-container {
@@ -79,18 +83,20 @@ p strong {
   font-size: 88px;
   font-weight: bold;
   margin-left: 10px;
+  color: antiquewhite;
 }
 
 .weather-app-unit {
   margin-top: 10px;
   font-size: 28px;
+  color: antiquewhite;
 }
 
 footer {
   border-top: 1px solid #f7f5fb;
   text-align: center;
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.6);
+  color: white;
   font-style: italic;
   padding: 30px 0 0 0;
 }
